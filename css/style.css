@@ -66,7 +66,7 @@ body #info {
   flex-direction: column;
   border: #f2f2f2 0px solid;
   background-color: #f2f2f2;
-  width: 98%;
+  width: 100%;
   height: 355px;
   font-size: 18px;
 }
@@ -86,7 +86,10 @@ body #info button a.bouton {
 }
 body #info button:hover {
   box-shadow: 0px 3px 3px 2px rgba(172, 115, 239, 0.53);
-  background-image: linear-gradient(0deg, rgba(172, 115, 239, 0.86), #f9a4cbf2);
+  background-image: linear-gradient(0deg, rgba(172, 115, 239, 0.86), rgba(249, 164, 203, 0.9490196078));
+}
+body h2.fonctionnement {
+  text-align: center;
 }
 body #lieux {
   border: #e2e2e2 0px solid;
@@ -116,22 +119,22 @@ body article.info div.number {
   display: flex;
   align-items: center;
 }
-body article.info h1 {
+body article.info h2 {
   border: #f2f2f2 solid;
   background-color: #f2f2f2;
   border-radius: 21px;
   padding: 23px;
-  width: 78%;
+  width: 80%;
 }
-body article.info h1 i {
+body article.info h2 i {
   padding-right: 25px;
 }
-body article.info h1.info-hover:hover {
+body article.info h2.info-hover:hover {
   background-color: #e3cdff;
-  color: #000000af;
+  color: rgba(0, 0, 0, 0.6862745098);
 }
-body article.info h1.info-hover:hover span.icone-info:hover {
-  color: #570cb46b;
+body article.info h2.info-hover:hover span.icone-info:hover {
+  color: rgba(87, 12, 180, 0.4196078431);
   opacity: 1;
 }
 body section.restaurant {
@@ -148,7 +151,7 @@ body section.restaurant article.info-img {
   border-radius: 25px;
   margin-bottom: 17px;
   margin-left: 15px;
-  box-shadow: 5px 5px 5px #80808012;
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.0705882353);
   width: 92%;
 }
 body section.restaurant article.info-img figure.img-restaurant {
@@ -292,7 +295,7 @@ body footer ul.info-footer li a {
     border-radius: 25px;
     margin-bottom: 17px;
     margin-left: 66px;
-    box-shadow: 5px 5px 5px #80808012;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.0705882353);
     width: 85%;
   }
   body section.restaurant .heart, body section.restaurant .heart-full {
@@ -452,6 +455,8 @@ body footer ul.info-footer li a {
 }
 #menu ul.plat li.menu:hover div.checkbox #check {
   font-size: 25px;
+  color: #f2f2f2;
+  transform: rotate(360deg);
 }
 #menu ul li {
   font-family: "Roboto", sans-serif;
@@ -485,7 +490,7 @@ body footer ul.info-footer li a {
 }
 #menu button:hover {
   box-shadow: 0px 3px 3px 2px rgba(172, 115, 239, 0.53);
-  background-image: linear-gradient(0deg, rgba(172, 115, 239, 0.86), #f9a4cbf2);
+  background-image: linear-gradient(0deg, rgba(172, 115, 239, 0.86), rgba(249, 164, 203, 0.9490196078));
 }
 #menu footer {
   border: #353535 0px solid;
