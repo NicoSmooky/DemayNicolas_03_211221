@@ -445,18 +445,20 @@ body footer ul.info-footer li a {
   align-items: center;
   border-radius: 0px 25px 25px 0px;
 }
-#menu ul.plat li.menu div.checkbox #check {
-  font-size: 0px;
+#menu ul.plat li.menu div.checkbox i.check {
+  font-size: 25px;
+  color: #f2f2f2;
+  transform: rotate(0deg);
+  transition: transform 1s;
 }
 #menu ul.plat li.menu:hover div.checkbox {
   transition: all 1s;
   width: 20%;
   opacity: 1;
 }
-#menu ul.plat li.menu:hover div.checkbox #check {
-  font-size: 25px;
-  color: #f2f2f2;
+#menu ul.plat li.menu:hover div.checkbox i.check {
   transform: rotate(360deg);
+  transition: transform 1s;
 }
 #menu ul li {
   font-family: "Roboto", sans-serif;
@@ -474,7 +476,7 @@ body footer ul.info-footer li a {
   display: flex;
   justify-content: center;
 }
-#menu button {
+#menu a.bouton {
   border-radius: 100px;
   width: 59%;
   display: flex;
@@ -483,12 +485,10 @@ body footer ul.info-footer li a {
   border: transparent;
   background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   box-shadow: 0px 5px 7px 0px grey;
-}
-#menu button a.bouton {
-  font-size: 18px;
   color: white;
+  font-size: 18px;
 }
-#menu button:hover {
+#menu a.bouton:hover {
   box-shadow: 0px 3px 3px 2px rgba(172, 115, 239, 0.53);
   background-image: linear-gradient(0deg, rgba(172, 115, 239, 0.86), rgba(249, 164, 203, 0.9490196078));
 }
