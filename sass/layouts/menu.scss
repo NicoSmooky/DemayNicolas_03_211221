@@ -62,10 +62,16 @@
         font-family: 'Shrikhand', sans-serif;
     }
     h2{
-        text-decoration: underline #99E2D0;
-        
         font-size: 20px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto', sans-serif; 
+        margin-bottom: 0px;
+    }
+    div.underline{
+        width: 45px;
+        height: 4px;
+        background-color: #99E2D0;
+        margin-left: 15px;
+        padding: 0;
     }
     section.plat-menu span.heart-menu, .heart-full-menu{
         padding-left: 174px;
